@@ -1,0 +1,85 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f5;
+    color: #333;
+}
+
+.container, .welcome-container, .home-container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+}
+
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: whitesmoke;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#welcome-section h1 {
+    font-size: 2rem;
+    color: #007BFF;
+}
+
+.message {
+    color: red;
+    font-size: 14px;
+}
+#Gender {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: whitesmoke;
+}
+label {
+    font-size: 12px; 
+    color: #565656;
+    position: absolute;
+    margin-left: 10px;
+    background-color: white;
+
+
+}
+input#Birthday{
+    margin-right: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: whitesmoke;
+
+}
+.bday {
+    display: flex;
+    margin: 5px 7px;
+
+}
